@@ -1,11 +1,460 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Venture Vista</title>
+    <link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon">
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="./Styles/style.css" />
+    <link rel="stylesheet" href="./Styles/style_600px.css" />
+    <link rel="stylesheet" href="./Styles/style-992px.css" />
+    <!-- css -->
+
+<!-- font awesome icons -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+    <!-- font awesome icons -->
+
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google fonts -->
+  </head>
+  <body>
+    <header>
+      <!-- navbar section start -->
+      <nav class="nav-section section-width">
+        <div class="nav-logo-container">
+          <img
+            src="./Images/Group 40071 (2).png"
+            alt=""
+            class="nav-logo-image"
+          />
+          <h3 class="nav-logo-text">
+            Venture <span class="text-orange">Vista</span>
+          </h3>
+        </div>
+        <div class="nav-menu-container">
+          <ul>
+            <li><a href="#" id="active">Home</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Testimonial</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#" id="last">Contact</a></li>
+          </ul>
+          <i class="fa-solid fa-bars fa-xl" id="nav-icon"></i>
+        </div>
+      </nav>
+      <!-- navbar section stop -->
+
+      <!-- banner section start -->
+      <section class="banner-section section-width">
+        <div class="banner-container">
+          <h3 class="banner-title text-white">Explore Your Travel</h3>
+          <p class="banner-description text-white">
+            Embark on unforgettable journeys with our travel expertise - where
+            every destination becomes a story and every moment becomes a
+            cherished adventure
+          </p>
+          <div class="option-container">
+            <input type="text" class="where-go" placeholder="Where Go" />
+
+            <select name="when-go" id="" class="when-go">
+              <option value="">When &nbsp;</option>
+            </select>
+
+            <select name="" class="select-type" id="">
+              <option value="">Select Type</option>
+            </select>
+
+            <button class="bgcolor-orange search-button text-white">
+              <i class="fa-solid fa-magnifying-glass"></i> Find Now
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- banner section stop -->
+    </header>
+    <main>
+      <!-- popular tour section start -->
+      <section class="popular-tour-section section-width">
+        <div class="tour-text-container">
+          <h3 class="tour-title">Our Popular Tours</h3>
+          <p class="tour-description same-text">
+            Embarking on an exciting tour requires meticulous planning to ensure
+            a seamless and memorable experience. Firstly, consider the
+            destinations that captivate your wanderlust
+          </p>
+          <div class="list">
+            <ul>
+              <li class="same-text">
+                Explore historic landmarks like the Colosseum in Rome or the Taj
+                Mahal in India.Immerse yourself in local traditions with visits
+                to museums, art galleries, and vibrant markets
+              </li>
+              <li class="same-text">
+                Attend cultural events or festivals to witness the authenticity
+                of the region.Seek awe-inspiring landscapes such as the Grand
+                Canyon or the Northern Lights in Iceland.
+              </li>
+              <li class="same-text">
+                Plan hiking adventures to discover hidden gems like waterfalls,
+                national parks, and serene beaches.Opt for eco-friendly
+                activities, like wildlife safaris or snorkeling in coral reefs,
+                to connect with nature.
+              </li>
+            </ul>
+          </div>
+          <p class="same-text">
+            By incorporating these elements into your tour plans, you can ensure
+            a well-rounded and enriching journey that caters to your interests
+            and creates lasting memories.
+          </p>
+          <button class="read-more-button bgcolor-orange text-white">
+            Read More
+          </button>
+        </div>
+        <img src="./Images/Rectangle 4.png" alt="" class="tour-image-1" />
+      </section>
+      <!-- popular tour section stop -->
+
+      <!-- choose destination section start -->
+      <section class="destination section-width">
+        <h3 class="destination-title center">Choose Your Destination</h3>
+        <p class="destination-description center">
+          Selecting the perfect destination for your tour is like choosing a
+          chapter in the story of your life—each locale.
+        </p>
+        <div class="destination-image-container">
+          <div class="container-1">
+            <div class="maldives">
+              <h3 class="title title-1 text-white center">Maldives</h3>
+            </div>
+            <div class="indonesia">
+              <h3 class="title title-2 text-white center">Indonesia</h3>
+            </div>
+          </div>
+          <div class="container-2">
+            <div class="sri-lanka">
+              <h3 class="title title-3 text-white center">Sri Lanka</h3>
+            </div>
+            <div class="north-america">
+              <h3 class="title title-4 text-white center">North America</h3>
+            </div>
+            <div class="kashmir">
+              <h3 class="title title-5 text-white center">kashmir</h3>
+            </div>
+          </div>
+          <div class="container-3">
+            <div class="bangladesh">
+              <h3 class="title title-6 text-white center">Bangladesh</h3>
+            </div>
+            <div class="bandarban">
+              <h3 class="title title-7 text-white center">Bandarban</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- choose destination section stop -->
+
+      <!-- why choose us section start -->
+      <section class="why-choose-section section-width">
+        <h3 class="why-choose-title center">Why Choose Us</h3>
+        <p class="why-choose-description center">
+          where seamless navigation meets a treasure trove of curated
+          destinations, ensuring that every click opens the door to
+          extraordinary adventures and unbeatable travel expertise.
+        </p>
+        <div class="why-choose-container">
+          <div class="card-container">
+            <div class="card-1">
+              <img src="./Images/hotel 1.png" alt="" class="hotel-icon" />
+              <h4 class="card-title">Handpicked Hotels</h4>
+              <p class="card-description">
+                From boutique hideaways to luxurious resorts, we handpick
+                accommodations that redefine hospitality, ensuring your stay
+                becomes an integral part of the unforgettable tapestry of your
+                journey
+              </p>
+            </div>
+            <div class="card-2">
+              <img src="./Images/map 1.png" alt="" class="map-icon" />
+              <h4 class="card-title">World Class Service</h4>
+              <p class="card-description">
+                Navigate your wanderlust seamlessly with our tour website's
+                cutting-edge map service, a digital compass that unveils the
+                hidden gems of your chosen destinations
+              </p>
+            </div>
+          </div>
+          <div class="card-3">
+            <img src="./Images/price-tag 1.png" alt="" class="price-icon" />
+            <h4 class="card-title">Best Price Guarantee</h4>
+            <p class="card-description">
+              Unlock the thrill of exploration without breaking the bank our
+              tour website guarantees the best prices, offering budget-friendly
+              packages that seamlessly blend affordability with exceptional
+              experiences
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- why choose us section stop -->
+
+      <!-- discount section start -->
+      <section class="discount-section section-width">
+        <h3 class="discount-title center">Deals & Discounts</h3>
+        <p class="discount-description center">
+          Unlock your dream destinations at unbeatable prices with our tour
+          website's exclusive discounts, where every journey becomes not just a
+          thrilling adventure but a savvy and budget-friendly exploration of the
+          world
+        </p>
+        <div class="deals-container">
+          <div class="deal-1">
+            <div class="offer-container-1">
+              <div class="deal-list">
+                <ul>
+                  <li>
+                    <i
+                      class="fa-solid fa-clock first"
+                      style="color: #ff5400"
+                    ></i
+                    >&nbsp; 7 Day/6 Night
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-paw" style="color: #ff5400"></i>&nbsp;
+                    Max:10
+                  </li>
+                  <li>
+                    <i
+                      class="fa-solid fa-location-dot"
+                      style="color: #ff5400"
+                    ></i>
+                    &nbsp;Malaysia
+                  </li>
+                </ul>
+              </div>
+              <h3 class="deal-title">Tour to Malaysia</h3>
+              <p class="deal-description">
+                Unlock the enchanting allure of Malaysia with our exclusive tour
+                deal on the website, offering a captivating blend of cultural
+                splendors, tropical landscapes, and gastronomic delights.
+                Immerse yourself in the vibrant tapestry of Malaysia's diverse
+                attractions, all seamlessly packaged for an unforgettable
+                journey at an unbeatable price.
+              </p>
+              <h4 class="price">1300$-1500$</h4>
+              <button class="booking-button bgcolor-orange text-white">
+                Book Now
+              </button>
+            </div>
+          </div>
+          <div class="deal-2">
+            <div class="offer-container-2">
+              <div class="deal-list">
+                <ul>
+                  <li>
+                    <i
+                      class="fa-solid fa-clock first"
+                      style="color: #ff5400"
+                    ></i>
+                    &nbsp;7 Day/6 Night
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-paw" style="color: #ff5400"></i>
+                    &nbsp;Max:10
+                  </li>
+                  <li>
+                    <i
+                      class="fa-solid fa-location-dot"
+                      style="color: #ff5400"
+                    ></i>
+                    &nbsp;Thailand
+                  </li>
+                </ul>
+              </div>
+              <h3 class="deal-title">Tour to Thailand</h3>
+              <p class="deal-description">
+                Embark on an enchanting journey through Thailand with our
+                exclusive tour deal, where vibrant street markets, ancient
+                temples, and pristine beaches await. Immerse yourself in the
+                allure of Bangkok,
+                and relax on the idyllic shores of Phuket—all packaged in an
+                irresistible offer that combines luxury with affordability
+              </p>
+              <h4 class="price">1500$-1800$</h4>
+              <button class="booking-button bgcolor-orange text-white">
+                Book Now
+              </button>
+            </div>
+          </div>
+          <div class="deal-3">
+            <div class="offer-container-3">
+              <div class="deal-list">
+                <ul>
+                  <li>
+                    <i
+                      class="fa-solid fa-clock first"
+                      style="color: #ff5400"
+                    ></i>
+                    &nbsp;7 Day/6 Night
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-paw" style="color: #ff5400"></i>
+                    &nbsp;Max:10
+                  </li>
+                  <li>
+                    <i
+                      class="fa-solid fa-location-dot"
+                      style="color: #ff5400"
+                    ></i>
+                    &nbsp;Maldives
+                  </li>
+                </ul>
+              </div>
+              <h3 class="deal-title">Tour to Maldives</h3>
+              <p class="deal-description">
+                Dive into luxury with our exclusive Maldives tour deal on our
+                website where azure waters meet pristine white sands, and
+                overwater bungalows await your arrival. Unleash the magic of
+                this tropical paradise with our unbeatable package and
+                personalized experiences for an unforgettable journey in the
+                heart of the Indian Ocean
+              </p>
+              <h4 class="price">1000$-1300$</h4>
+              <button class="booking-button bgcolor-orange text-white">
+                Book Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <button class="see-all-package-button bgcolor-orange text-white">
+          See All Packages
+        </button>
+      </section>
+      <!-- discount section stop -->
+
+      <!-- tour categories section start -->
+      <section class="tour-categories-section section-width">
+        <h3 class="tour-categories-title center">Our Popular Categories</h3>
+        <div class="tour-image-container-1">
+          <div class="tour-card-1">
+            <img src="./Images/1.jpg" alt="" class="tour-image" />
+            <h6 class="tour-heading">Hotel With Balconies</h6>
+          </div>
+          <div class="tour-card-2">
+            <img src="./Images/2.jpg" alt="" class="tour-image" />
+            <h6 class="tour-heading">Honeymoon Resorts</h6>
+          </div>
+          <div class="tour-card-3">
+            <img src="./Images/3.jpg" alt="" class="tour-image" />
+            <h6 class="tour-heading">Luxury Resorts</h6>
+          </div>
+          <div class="tour-card-4">
+            <img src="./Images/4.jpg" alt="" class="tour-image" />
+            <h6 class="tour-heading">Cheap Resorts</h6>
+          </div>
+        </div>
+        <div class="tour-image-container-2">
+          <div class="tour-card-5">
+            <img src="./Images/5.jpg" alt="" class="tour-image" />
+            <h6 class="tour-heading">Hotel With Vilas</h6>
+          </div>
+          <div class="tour-card-6">
+            <img src="./Images/6.jpg" alt="" class="tour-image" />
+            <h6 class="tour-heading">Family Resorts</h6>
+          </div>
+          <div class="tour-card-7">
+            <img src="./Images/7.jpg" alt="" class="tour-image" />
+            <h6 class="tour-heading">Snorkeling Resort</h6>
+          </div>
+          <div class="tour-card-8">
+            <img src="./Images/8.jpg" alt="" class="tour-image" />
+            <h6 class="tour-heading">Diving Resort</h6>
+          </div>
+        </div>
+      </section>
+      <!-- tour categories section stop -->
+
+      <!-- perfect place section start -->
+      <section class="perfect-place-section section-width">
+        <div class="perfect-place-container">
+          <div class="inner-container">
+            <h3 class="perfect-title">A Simple Perfect Place To Get Lost</h3>
+            <p class="perfect-description">
+              Discover the world with our tour website, where wanderlust meets
+              convenience. Explore handpicked destinations, curated itineraries,
+              and seamless travel experiences, ensuring every journey is a
+              memorable adventure
+            </p>
+            <ul class="perfect-list">
+              <li>
+                Explore a plethora of captivating destinations, from bustling
+                metropolises to tranquil natural wonders, ensuring a range of
+                experiences tailored to diverse taste
+              </li>
+              <li>Enjoy personalized itineraries and curated tours that cater to your preferences, allowing you to immerse yourself in local culture, culinary delights, and unique adventures for a truly unforgettable travel experience</li>
+            </ul>
+            <button class="perfect-button bgcolor-orange">See More</button>
+          </div>
+          <h3 class="perfect-heading center text-white  ">Watch Our Mountain in Bangladesh</h3>
+        </div>
+      </section>
+      <!-- perfect place section stop -->
+
+      <!-- newsletter section start -->
+      <section class="news-letter-section section-width">
+        <div class="news-letter-container">
+            <h3 class="newsletter-title">Newsletter</h3>
+            <p class="newsletter-description">Get your daily dose of travel news & tips. Sign up today!</p>
+            <div class="horizontal-line"></div>
+            <input class="subscriber-info" type="text" name="" id="" placeholder="Enter your name">
+            <input class="subscriber-info" type="email" name="" id="" placeholder="Enter your email">
+            <button class="news-letter-button bgcolor-orange center text-white">Subscribe</button>
+        </div>
+        <div class="news-letter-image">
+            <button class="save-button bgcolor-orange text-white"><span class="website">Travel.com</span> <br> Save upto 70% </button>
+        </div>
+      </section>
+      <!-- newsletter section stop -->
+    </main>
+
+    <!-- footer section start -->
+    <footer >
+        <div class="footer-logo-container ">
+          <img
+            src="./Images/Group 40071 (2).png"
+            alt=""
+            class="footer-logo-image"
+          />
+          <h3 class="footer-logo-text">
+            Venture <span class="text-orange" id="footer-text">Vista</span>
+          </h3></div>
+          <p class="footer-description center">Discover the world with ease.Your gateway to unforgettable adventures, meticulously crafted itineraries, and seamless travel experiences. Explore, indulge, and create memories with Venture Vista</p>
+          <div class="footer-icon-container">
+            <i class="fa-brands fa-twitter fa-xl"></i>
+            <i class="fa-brands fa-facebook fa-xl"></i>
+            <i class="fa-brands fa-instagram fa-xl"></i>
+            <i class="fa-brands fa-github fa-xl"></i>
+          </div>
+          <div class="footer-line"></div>
+          <div class="copyright center">2017, All Rights Reserved</div>
+        
+    </footer>
+    <!-- footer section stop -->
+  </body>
 </html>

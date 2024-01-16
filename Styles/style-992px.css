@@ -1,0 +1,169 @@
+@media screen and (min-width:601px) and (max-width:991px) {
+    /* navbar style start */
+    .nav-logo-image{
+        width: 4rem;
+        margin-right: 0.5rem;
+    }
+    .nav-logo-text, .text-orange{
+        font-size: 2rem;
+    }
+    
+    .nav-menu-container > ul > li > a{
+        margin: 1rem;
+    }
+    #nav-icon{
+        display: none;
+    }
+    /* navbar style stop */
+
+    
+    /* banner style start */
+    .option-container{
+        width: 90%;
+        justify-content: center;
+    }
+    .where-go, .when-go, .select-type{
+        margin:0 1rem 0 0;
+    }
+    /* banner style stop */
+
+    /* popular tour section styles start */
+    .tour-text-container{
+        row-gap: 0.75rem;
+    }
+    .tour-title{
+        font-size: 1.5rem;
+    }
+    .same-text{
+        font-size: 0.8rem;
+    }
+    .tour-image-1{
+        width: 48%;
+        height: 100%;
+    }
+    .list{
+        margin-left: 1rem;
+    }
+    .list >ul > li{
+        margin: 0.5rem auto;
+    }
+    .read-more-button{
+        width: 7rem;
+        height: 2rem;
+        font-size: 1.1rem;
+    }
+    /* popular tour section styles stop */
+
+    /* choose destination section style start */
+    .container-1{
+        height: 13.6rem;
+    }
+    .container-2{
+        height: 11rem;
+    }
+    .indonesia{
+        width: 48%;
+        height: 13.5rem;
+        background: url('../Images/Rectangle\ 8.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+    .sri-lanka{
+        width: 30%;
+        height: 12.5rem;
+        background: url('../Images/Rectangle\ 6.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .north-america{
+        width: 37%;
+        height: 12.5rem;
+        background: url('../Images/Rectangle\ 7.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .kashmir{
+        width: 21%;
+        height: 12.5rem;
+        background: url('../Images/Rectangle\ 9.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    /* choose destination section style stop */
+
+    /* why choose section section start */
+    .destination, .destination-image-container{
+        margin-bottom: 0;
+    }
+    .why-choose-section{
+        margin-top: -7rem;
+    }
+    /* why choose section section stop */
+
+    /* discount section style start */
+    .offer-container-1, .offer-container-3{
+        margin-right: 3rem;
+    }
+    .offer-container-2{
+        margin-left: 3rem;
+    }
+    .deal-title{
+        padding-top: 1.5rem;
+    }
+    .deal-list{
+        margin-top: 1.5rem;
+    }
+    .deal-description{
+        margin-right: 3rem;
+    }
+    .see-all-package-button{
+        margin: auto 38.5%;
+    }
+    /* discount section style stop */
+
+    /* tour categories section style start */
+    .tour-image-container-2{
+        margin-top: 3rem;
+    }
+    .tour-image{
+        width: 100%;
+    }
+    /* tour categories section style stop */
+
+    /* perfect place section style start */
+    .perfect-place-container{
+        margin: 4rem auto;
+    }
+    .perfect-description, .perfect-list{
+        margin-right: 1rem;
+    }
+    .perfect-heading{
+        padding-top: 13rem;
+    }
+    /* perfect place section style stop */
+
+    /* newsletter section style start */
+    .news-letter-container{
+        column-gap: 1rem;
+        justify-content: space-between;
+    }
+    .save-button{
+        top: 17.6rem;
+        left: 16.75rem;
+
+    }
+    .subscriber-info , .news-letter-button{
+        width: 100%;
+    }
+    /* newsletter section style stop */
+
+    /* footer section style start */
+    .footer-logo-container{
+        margin-left: 35%;
+    }
+    .footer-icon-container{
+        width: 20%;
+    }
+    /* footer section style stop */
+}

@@ -1,0 +1,677 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+/* shared common styles start */
+.section-width {
+  width: 85%;
+}
+.center {
+  text-align: center;
+}
+.text-white {
+  color: #fff;
+}
+.color-orange {
+  color: #ff5400;
+}
+.bgcolor-orange {
+  border-radius: 8px;
+  background: #ff5400;
+}
+/* shared common styles stop */
+
+/* navbar section styles start */
+.nav-section {
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem auto;
+}
+.nav-logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+}
+.nav-logo-image {
+  width: 5rem;
+  margin-right: 1rem;
+}
+.nav-logo-text {
+  color: #131318;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+.nav-logo-text > .text-orange {
+  color: #ff5400;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+.nav-menu-container {
+  display: flex;
+  margin-right: 0;
+  align-items: center;
+}
+.nav-menu-container > ul {
+  display: flex;
+}
+.nav-menu-container > ul > li {
+  list-style: none;
+}
+.nav-menu-container > ul > li > a {
+  text-decoration: none;
+  margin: 0 1.5rem;
+  color: #424247;
+  font-size: 18px;
+  font-weight: 400;
+}
+.nav-menu-container > ul > li > a:hover {
+  color: #ff5400;
+}
+#active {
+  color: #ff5400;
+}
+#nav-icon {
+  display: none;
+}
+#last {
+  margin-right: 0;
+}
+/* navbar section styles stop */
+
+/* banner section styles start */
+.banner-section {
+  background: url("../Images/Group\ 13\ \(1\)\ \(1\).png"),
+    linear-gradient(180deg, rgba(19, 19, 24, 0.8) 0%, rgba(19, 19, 24, 0) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  border-radius: 1rem;
+  height: 31rem;
+}
+.banner-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 3rem;
+}
+.banner-title {
+  font-size: 4rem;
+  font-weight: 800;
+}
+.banner-description {
+  text-align: center;
+  width: 42rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.where-go,
+.when-go,
+.select-type {
+  width: 10.5rem;
+  height: 3rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  border: none;
+  background: #fff;
+  margin-right: 1.5rem;
+  color: rgba(19, 19, 24, 0.5);
+}
+.option-container {
+  display: flex;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.when-go,
+.select-type {
+  padding-left: 1rem;
+  color: rgba(19, 19, 24, 0.5);
+}
+.search-button {
+  width: 10.5rem;
+  height: 3rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  border: none;
+}
+/* banner section styles stop */
+
+/* popular tour section style start */
+.popular-tour-section {
+  margin: 3rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+.tour-text-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  justify-content: center;
+  width: 50%;
+}
+.tour-title {
+  color: #131318;
+  margin-left: 0;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.same-text {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.read-more-button {
+  width: 11rem;
+  height: 3.1rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  border: none;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-left: 0;
+}
+.list {
+  margin-left: 2rem;
+}
+.list > ul > li {
+  margin: 1rem auto;
+}
+
+/* popular tour section style stop */
+
+/* choose destination section style start */
+.destination {
+  margin: 3rem auto;
+}
+.destination-title {
+  color: #131318;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 1.5rem auto;
+}
+.destination-description {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.destination-image-container {
+  margin: 2rem auto;
+}
+.container-1,
+.container-2,
+.container-3 {
+  margin-bottom: -3rem;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+.title-1,
+.title-2 {
+  margin-top: 25%;
+}
+
+.title-3 {
+  margin-top: 34%;
+}
+.title-4 {
+  margin-top: 26%;
+}
+.title-5 {
+  margin-top: 44%;
+}
+.title-6 {
+  margin-top: 30%;
+}
+.title-7 {
+  margin-top: 22%;
+}
+.maldives {
+  width: 48%;
+  height: 22.3rem;
+  background: url("../Images/Rectangle\ 5.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: auto 0;
+}
+.indonesia {
+  width: 48%;
+  height: 22.3rem;
+  background: url("../Images/Rectangle\ 8.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.sri-lanka {
+  width: 30%;
+  height: 20.5rem;
+  background: url("../Images/Rectangle\ 6.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.north-america {
+  width: 38%;
+  height: 20.5rem;
+  background: url("../Images/Rectangle\ 7.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.kashmir {
+  width: 22%;
+  height: 20.5rem;
+  background: url("../Images/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.bangladesh {
+  width: 40%;
+  height: 23rem;
+  background: url("../Images/Rectangle\ 11.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.bandarban {
+  width: 56.5%;
+  height: 23rem;
+  background: url("../Images/Rectangle\ 10.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* choose destination section style stop */
+
+/* why choose section section style start */
+.why-choose-section {
+  margin-top: 6rem;
+}
+.why-choose-title {
+  color: #131318;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.why-choose-description {
+  margin-top: 1.5rem;
+  width: 40rem;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.card-container {
+  margin-top: 3rem;
+  display: flex;
+  gap: 1rem;
+}
+.card-1,
+.card-2,
+.card-3 {
+  height: 18rem;
+  padding: 2rem;
+}
+.card-1 {
+  background: rgba(251, 181, 99, 0.05);
+  border-radius: 1rem;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+}
+.card-2 {
+  border-radius: 1rem;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.card-3 {
+  width: 54%;
+  margin: 1rem auto;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+.card-title {
+  margin: 2rem auto 1rem auto;
+  color: #131318;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.card-description {
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-weight: 400;
+}
+/* why choose section section style stop */
+
+/* discount section style start */
+.discount-title {
+  margin: 6rem auto 2rem auto;
+  color: #131318;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.discount-description {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+.deal-1,
+.deal-2,
+.deal-3 {
+  width: 100%;
+  height: 38rem;
+  margin-bottom: 1.5rem;
+}
+.deal-1 {
+  background: url("../Images/Group\ 39.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.deal-2 {
+  background: url("../Images/Group\ 40.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.deal-3 {
+  background: url("../Images/maldives.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+}
+.offer-container-1,
+.offer-container-3 {
+  position: relative;
+  top: 4rem;
+  margin-right: 5.5rem;
+  width: 45%;
+  height: 80%;
+  border-radius: 1rem;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+}
+.offer-container-2 {
+  position: relative;
+  top: 4rem;
+  margin-left: 5.5rem;
+  width: 45%;
+  height: 80%;
+  border-radius: 1rem;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+}
+.deal-list > ul {
+  display: flex;
+}
+.deal-list > ul > li {
+  list-style: none;
+}
+.deal-title {
+  color: #131318;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.deal-description {
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.price {
+  color: #ff5400;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+.booking-button {
+  border: none;
+  border-radius: 0.5rem;
+  width: 9rem;
+  height: 3.5rem;
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+.booking-button:hover{
+  background-color: #fff;
+  color: #ff5400;
+}
+.deal-list {
+  margin-top: 4rem;
+}
+.deal-title {
+  padding: 3rem 0 1rem 3rem;
+}
+.deal-description {
+  padding: 0 0 1rem 3rem;
+}
+.price {
+  padding: 0 0 1rem 3rem;
+}
+.booking-button {
+  margin: 2rem 0 0 3rem;
+}
+.see-all-package-button {
+  margin: 2% 41.5%;
+  border: none;
+  border-radius: 0.5rem;
+  width: 12rem;
+  height: 3.5rem;
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+/* discount section style stop */
+
+/* tour categories style start */
+.tour-categories-section {
+  margin: 3rem auto;
+}
+.tour-categories-title {
+  color: #131318;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.tour-image-container-1,
+.tour-image-container-2 {
+  display: flex;
+  column-gap: 1rem;
+  margin: 1rem auto;
+}
+.tour-image {
+  border-radius: 0.5rem;
+  width: 99%;
+}
+.tour-image:hover {
+  transition: transform 0.25 ease-in-out;
+  transform: rotate(5deg);
+  border: 2px solid #5a5a5d;
+}
+.tour-heading {
+  margin: 1rem auto;
+  font-size: 1rem;
+  text-align: center;
+}
+/* tour categories style stop */
+
+/* perfect place section style start */
+.perfect-place-container {
+  display: flex;
+  margin: 3rem auto;
+}
+.inner-container {
+  width: 48%;
+}
+.perfect-heading {
+  width: 48%;
+  border-radius: 16px;
+  background: url("../Images/Group\ 40089.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.perfect-title {
+  color: #131318;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.perfect-description {
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 1rem auto;
+}
+.perfect-list {
+  margin: 1rem 1rem 1rem 1.5rem;
+}
+.perfect-button {
+  border: none;
+  border-radius: 0.5rem;
+  width: 9rem;
+  height: 3.5rem;
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+.perfect-heading {
+  padding-top: 12rem;
+}
+/* perfect place section style stop */
+
+/* Newsletter section style start */
+.news-letter-section {
+  display: flex;
+  margin: 3rem auto;
+}
+.news-letter-container {
+  width: 38%;
+  height: 27rem;
+}
+.news-letter-image {
+  height: 27rem;
+  width: 58%;
+  background: url("../Images/Rectangle\ 8\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.5rem;
+}
+.newsletter-title {
+  color: #131318;
+  font-size: 2rem;
+  margin: 4rem auto 1rem auto;
+}
+.newsletter-description {
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.horizontal-line {
+  border-bottom: 1px solid rgba(19, 19, 24, 0.1);
+  display: none;
+}
+.subscriber-info {
+  margin-bottom: 1.5rem;
+  height: 3rem;
+  width: 24.375rem;
+  border: none;
+  border-radius: 0.5rem;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+}
+input::placeholder {
+  padding-left: 2rem;
+  font-size: 1rem;
+}
+.news-letter-section > button {
+  border: none;
+  border-radius: 0.5rem;
+}
+.news-letter-button {
+  border: none;
+  border-radius: 0.5rem;
+  width: 90%;
+  height: 3.5rem;
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+.save-button {
+  position: relative;
+  top: 16.8rem;
+  left: 23.25rem;
+  border: none;
+  border-radius: 0.5rem;
+  width: 42%;
+  height: 7.5rem;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  transform: rotate(-19.628deg);
+}
+.website {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+/* Newsletter section style stop */
+
+/* footer section style start */
+footer {
+  background: rgba(19, 19, 24, 0.05);
+  height: 32rem;
+}
+.footer-logo-container {
+  margin-top: 6.5rem;
+  margin-left: 39%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-description {
+  margin-top: 2rem;
+  width: 70%;
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.footer-icon-container {
+  margin-top: 3rem;
+  display: flex;
+  width: 18%;
+  justify-content: space-around;
+}
+.footer-line {
+  margin-top: 3.5rem;
+  width: 60%;
+  border-bottom: 1px solid rgba(19, 19, 24, 0.1);
+}
+.copyright {
+  color: #131318;
+  margin-top: 3.5rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.text-orange {
+  color: #ff5400;
+}
+.footer-logo-image {
+  margin-right: 0.5rem;
+}
+.footer-logo-text {
+  font-size: 2rem;
+}
+#footer-text {
+  font-size: 2rem;
+}
+/* footer section style stop */
